@@ -166,6 +166,7 @@ section p {
 }
 #product1 .pro:hover{
     box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.20);
+    transform: translateY(-10px);
 }
 
 #product1 .pro img{
@@ -288,60 +289,6 @@ footer{
     background-color: rgb(100, 100, 100);
 }
 
-/* footer{
-    display: flex;
-    /* flex-wrap: wrap; 
-    justify-content: space-between;
-}
-footer .about p{
-    width: 20px;
-}
-
-footer .col{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 20px;
-} */
-
-
-/* 
-@media(max-width: 991px){
-    html{
-        font-size: 55%;
-    }
-    .header{
-        padding: 2rem;
-    }
-}
-@media(max-width:770px){
-    #menu-btn{
-        display: inline-block;
-    }
-
-    .header .navbar{
-        position: absolute;
-        top: 110%; right: 2rem;
-        background: #fff;
-        width: 30rem;
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);;
-        border-radius: .5rem;
-    }
-    .header.navbar a{
-        font-size: 2rem;
-        margin: 2rem 2.2rem;
-        display: block;
-    }
-    .header.navbar.active{
-        right: 2rem;
-        transition: .4s linear;
-    }
-}
-@media(max-width: 450px){
-    html{
-        font-size: 50%;
-    }
-} */
 
 
 @media screen and (max-width:991px) {
